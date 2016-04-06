@@ -1,6 +1,5 @@
 <?php
 $username = array('james', 'clif', 'tammy');
-$user_name = $_REQUEST['username'];
 ?>
 
 <!DOCTYPE HTML>
