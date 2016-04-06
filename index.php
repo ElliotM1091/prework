@@ -1,16 +1,15 @@
-<?php // testing
-$username = "fred Smith";
-echo $username;
-echo "<br>";
-$current_user = $username;
-echo $current_user;
+<?php
+$username = array('james', 'clif', 'tammy');
+$user_name = $_REQUEST['username'];
 ?>
-<!DOCTYPE html>
-	<html>
+
+<!DOCTYPE HTML>
+<html>
 	<head>
-		<title>I completed the prework</title>
+		<meta charset="utf-8">
+		<title>Page Title</title>
 	</head>
 	<body>
-		<p> I completed the prework</p>
-</body>
+		Welcome <?php echo $username;?>
+	</body>
 </html>
