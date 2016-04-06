@@ -9,7 +9,7 @@ $username = array(array('james', 'clif', 'tammy'),
 	<head>
 		<title>Page Title</title>
 	</head>
-	<body>
+	<body><p><?php echo 6 + 2;?></p>
 		Welcome <?php echo $username[2][2];?>
 	</body>
 </html>
