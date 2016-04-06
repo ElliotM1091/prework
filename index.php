@@ -10,6 +10,6 @@ $username = array(array('james', 'clif', 'tammy'),
 		<title>Page Title</title>
 	</head>
 	<body><p><?php echo 6 + 2;?></p>
-		Welcome <?php echo $username[2][2];?>
+		Welcome <?php echo $username[2] + [2];?>
 	</body>
 </html>
