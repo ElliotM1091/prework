@@ -1,5 +1,7 @@
 <?php
-$username = array('james', 'clif', 'tammy');
+$username = array(array('james', 'clif', 'tammy'),
+	array('peter','jane','mary'),
+	array('dean','william','tiana'));
 ?>
 
 <!DOCTYPE HTML>
@@ -8,6 +10,6 @@ $username = array('james', 'clif', 'tammy');
 		<title>Page Title</title>
 	</head>
 	<body>
-		Welcome <?php echo $username[2];?>
+		Welcome <?php echo $username[3][3];?>
 	</body>
 </html>
